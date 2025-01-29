@@ -1,0 +1,30 @@
+.parent{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 7fr 1fr;
+    grid-template-areas: 
+    "h h h"
+    "n a b"
+    "f f f";
+    gap: 2px;
+}
+.child{
+    background-color: gold;
+    text-align: center;
+    padding: 1.2rem;
+}
+.child1{
+    grid-area: h;
+}
+.child2{
+    grid-area: n;
+}
+.child3{
+    grid-area: a;
+}
+.child4{
+    grid-area: b;
+}
+.child5{
+    grid-area: f;
+}
